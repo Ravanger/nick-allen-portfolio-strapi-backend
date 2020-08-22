@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ux-projects",
+  "info": {
+    "name": "UX Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Title",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "Description",
+      "required": true
+    }
+  }
+}

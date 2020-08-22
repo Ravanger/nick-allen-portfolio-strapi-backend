@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "illustrations",
+  "info": {
+    "name": "Illustration"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

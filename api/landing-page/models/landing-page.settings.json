@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "Landing Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "Hi, I'm Nick",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "default": "I'm a Visual Designer based in Toronto who loves illustration and chicken tendies.",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ux-projects",
+      "handler": "ux-projects.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ux-projects/count",
+      "handler": "ux-projects.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ux-projects/:id",
+      "handler": "ux-projects.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ux-projects",
+      "handler": "illustration.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ux-projects/:id",
+      "handler": "illustration.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ux-projects/:id",
+      "handler": "illustration.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

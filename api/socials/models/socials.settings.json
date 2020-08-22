@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "socials",
+  "info": {
+    "name": "Socials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Twitter": {
+      "type": "string",
+      "default": "https://twitter.com/home",
+      "required": true
+    },
+    "Instagram": {
+      "type": "string",
+      "default": "https://www.instagram.com/",
+      "required": true
+    },
+    "Dribbble": {
+      "type": "string",
+      "default": "https://dribbble.com/",
+      "required": true
+    },
+    "Behance": {
+      "type": "string",
+      "default": "https://www.behance.net/",
+      "required": true
+    }
+  }
+}

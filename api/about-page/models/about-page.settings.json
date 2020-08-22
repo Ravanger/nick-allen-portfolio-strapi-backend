@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "name": "About Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "About me",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "Hi, I'm Nick Allen. I'm a freelance visual designer living in Toronto. I specialize in UX/UI, graphic design, and illustration.  I've worked on projects ranging from websites, mobile apps, to marketing campaigns and more. I'm always looking for new ways to apply my skills to help myself and my clients grow.  Feel free to reach out if you'd like to work together or maybe just grab some coffee.",
+      "required": true
+    },
+    "Education": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
+      "required": true
+    },
+    "Awards": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
+      "required": true
+    },
+    "Experience": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
+      "required": true
+    },
+    "Portrait": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
