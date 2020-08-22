@@ -11,12 +11,10 @@
   "attributes": {
     "Title": {
       "type": "string",
-      "default": "Title",
       "required": true
     },
     "Description": {
-      "type": "richtext",
-      "default": "Description",
+      "type": "text",
       "required": true
     }
   }
