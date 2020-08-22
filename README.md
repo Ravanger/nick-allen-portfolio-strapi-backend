@@ -1,2 +1,3 @@
-# nick-allen-portfolio-strapi-backend
-Nick Allen portfolio website backend, built with Strapi.
+# Strapi application
+
+Backend for Nick Allen's portfolio site, built with Strapi
