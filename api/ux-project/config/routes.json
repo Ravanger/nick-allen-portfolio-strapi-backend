@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/ux-projects",
-      "handler": "ux-projects.find",
+      "handler": "ux-project.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/ux-projects/count",
-      "handler": "ux-projects.count",
+      "handler": "ux-project.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/ux-projects/:id",
-      "handler": "ux-projects.findOne",
+      "handler": "ux-project.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/ux-projects",
-      "handler": "illustration.create",
+      "handler": "ux-project.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/ux-projects/:id",
-      "handler": "illustration.update",
+      "handler": "ux-project.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/ux-projects/:id",
-      "handler": "illustration.delete",
+      "handler": "ux-project.delete",
       "config": {
         "policies": []
       }

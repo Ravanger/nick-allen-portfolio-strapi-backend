@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "socials",
   "info": {
-    "name": "Socials"
+    "name": "Social"
   },
   "options": {
     "increments": true,
@@ -11,23 +11,19 @@
   "attributes": {
     "Twitter": {
       "type": "string",
-      "default": "https://twitter.com/home",
-      "required": true
+      "default": "https://twitter.com/home"
     },
     "Instagram": {
       "type": "string",
-      "default": "https://www.instagram.com/",
-      "required": true
+      "default": "https://www.instagram.com/"
     },
     "Dribbble": {
       "type": "string",
-      "default": "https://dribbble.com/",
-      "required": true
+      "default": "https://dribbble.com/"
     },
     "Behance": {
       "type": "string",
-      "default": "https://www.behance.net/",
-      "required": true
+      "default": "https://www.behance.net/"
     }
   }
 }
