@@ -14,7 +14,7 @@
       "required": true
     },
     "Description": {
-      "type": "text",
+      "type": "richtext",
       "required": true
     }
   }
